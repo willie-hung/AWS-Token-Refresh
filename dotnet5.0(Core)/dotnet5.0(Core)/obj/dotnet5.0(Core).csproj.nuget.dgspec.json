@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hun80708\\Desktop\\AWS_Token_Refresh - Copy\\dotnet5.0(Core)\\dotnet5.0(Core)\\dotnet5.0(Core).csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hun80708\\Desktop\\AWS_Token_Refresh - Copy\\dotnet5.0(Core)\\dotnet5.0(Core)\\dotnet5.0(Core).csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hun80708\\Desktop\\AWS_Token_Refresh - Copy\\dotnet5.0(Core)\\dotnet5.0(Core)\\dotnet5.0(Core).csproj",
+        "projectName": "dotnet5.0(Core)",
+        "projectPath": "C:\\Users\\hun80708\\Desktop\\AWS_Token_Refresh - Copy\\dotnet5.0(Core)\\dotnet5.0(Core)\\dotnet5.0(Core).csproj",
+        "packagesPath": "C:\\Users\\hun80708\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hun80708\\Desktop\\AWS_Token_Refresh - Copy\\dotnet5.0(Core)\\dotnet5.0(Core)\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hun80708\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.5.12, )"
+            },
+            "AWSSDK.SSO": {
+              "target": "Package",
+              "version": "[3.7.0.113, )"
+            },
+            "AWSSDK.SSOOIDC": {
+              "target": "Package",
+              "version": "[3.7.0.113, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

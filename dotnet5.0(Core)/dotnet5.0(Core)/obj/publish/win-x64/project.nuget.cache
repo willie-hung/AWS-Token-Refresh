@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6nA0uDb4kcciDFG7Q+EjPa1FUkiXYx61UJDuoRwzCNRadUEg/55CC7RVBii8eFd0Gef/nCSob0NwetLwcbegdQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hun80708\\Desktop\\dotnet5.0(Core)\\dotnet5.0(Core)\\dotnet5.0(Core).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hun80708\\.nuget\\packages\\awssdk.core\\3.7.5.12\\awssdk.core.3.7.5.12.nupkg.sha512",
+    "C:\\Users\\hun80708\\.nuget\\packages\\awssdk.sso\\3.7.0.113\\awssdk.sso.3.7.0.113.nupkg.sha512",
+    "C:\\Users\\hun80708\\.nuget\\packages\\awssdk.ssooidc\\3.7.0.113\\awssdk.ssooidc.3.7.0.113.nupkg.sha512"
+  ],
+  "logs": []
+}

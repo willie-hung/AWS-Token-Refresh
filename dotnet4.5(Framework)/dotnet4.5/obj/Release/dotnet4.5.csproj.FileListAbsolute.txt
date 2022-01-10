@@ -1,0 +1,38 @@
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\bin\Release\dotnet4.5.exe.config
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\bin\Release\dotnet4.5.exe.manifest
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\bin\Release\dotnet4.5.application
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\bin\Release\dotnet4.5.exe
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\bin\Release\dotnet4.5.pdb
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\bin\Release\AWSSDK.Core.xml
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\bin\Release\AWSSDK.SSO.xml
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\bin\Release\AWSSDK.SSOOIDC.xml
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\obj\Release\dotnet4.5.csproj.CoreCompileInputs.cache
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\obj\Release\dotnet4.5.exe.manifest
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\obj\Release\dotnet4.5.application
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\obj\Release\dotnet4.5.csproj.CopyComplete
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\obj\Release\dotnet4.5.exe
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\obj\Release\dotnet4.5.pdb
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\obj\Release\dotnet4.5.csproj.AssemblyReference.cache
+C:\Users\hun80708\Desktop\dotnet4.5\dotnet4.5\obj\Release\dotnet4.5.csproj.Fody.CopyLocal.cache
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\obj\Release\dotnet4.5.csproj.AssemblyReference.cache
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\obj\Release\dotnet4.5.csproj.CoreCompileInputs.cache
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\obj\Release\dotnet4.5.exe
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\obj\Release\dotnet4.5.pdb
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\bin\Release\dotnet4.5.exe.config
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\bin\Release\dotnet4.5.exe.manifest
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\bin\Release\dotnet4.5.application
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\bin\Release\dotnet4.5.exe
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\bin\Release\dotnet4.5.pdb
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\bin\Release\AWSSDK.Core.dll
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\bin\Release\AWSSDK.SSO.dll
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\bin\Release\AWSSDK.SSOOIDC.dll
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\bin\Release\AWSSDK.Core.pdb
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\bin\Release\AWSSDK.Core.xml
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\bin\Release\AWSSDK.SSO.pdb
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\bin\Release\AWSSDK.SSO.xml
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\bin\Release\AWSSDK.SSOOIDC.pdb
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\bin\Release\AWSSDK.SSOOIDC.xml
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\obj\Release\dotnet4.5.exe.manifest
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\obj\Release\dotnet4.5.application
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet4.5(Framework)\dotnet4.5\obj\Release\dotnet4.5.csproj.CopyComplete

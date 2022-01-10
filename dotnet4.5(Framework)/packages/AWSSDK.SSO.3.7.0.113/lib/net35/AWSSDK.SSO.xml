@@ -1,0 +1,1631 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AWSSDK.SSO</name>
+    </assembly>
+    <members>
+        <member name="T:Amazon.SSO.AmazonSSOConfig">
+            <summary>
+            Configuration for accessing Amazon SSO service
+            </summary>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOConfig.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.AmazonSSOConfig.RegionEndpointServiceName">
+            <summary>
+            The constant used to lookup in the region hash the endpoint.
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.AmazonSSOConfig.ServiceVersion">
+            <summary>
+            Gets the ServiceVersion property.
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.AmazonSSOConfig.UserAgent">
+            <summary>
+            Gets the value of UserAgent property.
+            </summary>
+        </member>
+        <member name="T:Amazon.SSO.AmazonSSOException">
+            <summary>
+             Common exception for the SSO service.
+             </summary>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOException.#ctor(System.String)">
+            <summary>
+            Construct instance of AmazonSSOException
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOException.#ctor(System.String,System.Exception)">
+            <summary>
+            Construct instance of AmazonSSOException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOException.#ctor(System.Exception)">
+            <summary>
+            Construct instance of AmazonSSOException
+            </summary>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOException.#ctor(System.String,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of AmazonSSOException
+            </summary>
+            <param name="message"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOException.#ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of AmazonSSOException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructs a new instance of the AmazonSSOException class with serialized data.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
+            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
+        </member>
+        <member name="T:Amazon.SSO.Internal.AmazonSSOMetadata">
+            <summary>
+            Service metadata for  Amazon SSO service
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Internal.AmazonSSOMetadata.ServiceId">
+            <summary>
+            Gets the value of the Service Id.
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Internal.AmazonSSOMetadata.OperationNameMapping">
+            <summary>
+            Gets the dictionary that gives mapping of renamed operations
+            </summary>
+        </member>
+        <member name="T:Amazon.SSO.Model.AccountInfo">
+            <summary>
+            Provides information about your AWS account.
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.AccountInfo.AccountId">
+            <summary>
+            Gets and sets the property AccountId. 
+            <para>
+            The identifier of the AWS account that is assigned to the user.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.AccountInfo.AccountName">
+            <summary>
+            Gets and sets the property AccountName. 
+            <para>
+            The display name of the AWS account that is assigned to the user.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.AccountInfo.EmailAddress">
+            <summary>
+            Gets and sets the property EmailAddress. 
+            <para>
+            The email address of the AWS account that is assigned to the user.
+            </para>
+            </summary>
+        </member>
+        <member name="T:Amazon.SSO.Model.GetRoleCredentialsRequest">
+            <summary>
+            Container for the parameters to the GetRoleCredentials operation.
+            Returns the STS short-term credentials for a given role name that is assigned to the
+            user.
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.GetRoleCredentialsRequest.AccessToken">
+            <summary>
+            Gets and sets the property AccessToken. 
+            <para>
+            The token issued by the <code>CreateToken</code> API call. For more information, see
+            <a href="https://docs.aws.amazon.com/singlesignon/latest/OIDCAPIReference/API_CreateToken.html">CreateToken</a>
+            in the <i>AWS SSO OIDC API Reference Guide</i>.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.GetRoleCredentialsRequest.AccountId">
+            <summary>
+            Gets and sets the property AccountId. 
+            <para>
+            The identifier for the AWS account that is assigned to the user.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.GetRoleCredentialsRequest.RoleName">
+            <summary>
+            Gets and sets the property RoleName. 
+            <para>
+            The friendly name of the role that is assigned to the user.
+            </para>
+            </summary>
+        </member>
+        <member name="M:Amazon.SSO.Model.GetRoleCredentialsRequest.CreateSigner">
+            <summary>
+            Get the signer to use for this request.
+            </summary>
+            <returns>A signer for this request.</returns>
+        </member>
+        <member name="T:Amazon.SSO.Model.GetRoleCredentialsResponse">
+            <summary>
+            This is the response object from the GetRoleCredentials operation.
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.GetRoleCredentialsResponse.RoleCredentials">
+            <summary>
+            Gets and sets the property RoleCredentials. 
+            <para>
+            The credentials for the role that is assigned to the user.
+            </para>
+            </summary>
+        </member>
+        <member name="T:Amazon.SSO.Model.Internal.MarshallTransformations.AccountInfoUnmarshaller">
+            <summary>
+            Response Unmarshaller for AccountInfo Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.AccountInfoUnmarshaller.Amazon#Runtime#Internal#Transform#IUnmarshaller{Amazon#SSO#Model#AccountInfo,Amazon#Runtime#Internal#Transform#XmlUnmarshallerContext}#Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.AccountInfoUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SSO.Model.Internal.MarshallTransformations.AccountInfoUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SSO.Model.Internal.MarshallTransformations.GetRoleCredentialsRequestMarshaller">
+            <summary>
+            GetRoleCredentials Request Marshaller
+            </summary>       
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.GetRoleCredentialsRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.GetRoleCredentialsRequestMarshaller.Marshall(Amazon.SSO.Model.GetRoleCredentialsRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="publicRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SSO.Model.Internal.MarshallTransformations.GetRoleCredentialsRequestMarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SSO.Model.Internal.MarshallTransformations.GetRoleCredentialsResponseUnmarshaller">
+            <summary>
+            Response Unmarshaller for GetRoleCredentials operation
+            </summary>  
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.GetRoleCredentialsResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.GetRoleCredentialsResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <param name="innerException"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SSO.Model.Internal.MarshallTransformations.GetRoleCredentialsResponseUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SSO.Model.Internal.MarshallTransformations.InvalidRequestExceptionUnmarshaller">
+            <summary>
+            Response Unmarshaller for InvalidRequestException Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.InvalidRequestExceptionUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.InvalidRequestExceptionUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,Amazon.Runtime.Internal.ErrorResponse)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <param name="errorResponse"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SSO.Model.Internal.MarshallTransformations.InvalidRequestExceptionUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountRolesRequestMarshaller">
+            <summary>
+            ListAccountRoles Request Marshaller
+            </summary>       
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountRolesRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountRolesRequestMarshaller.Marshall(Amazon.SSO.Model.ListAccountRolesRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="publicRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountRolesRequestMarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountRolesResponseUnmarshaller">
+            <summary>
+            Response Unmarshaller for ListAccountRoles operation
+            </summary>  
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountRolesResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountRolesResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <param name="innerException"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountRolesResponseUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountsRequestMarshaller">
+            <summary>
+            ListAccounts Request Marshaller
+            </summary>       
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountsRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountsRequestMarshaller.Marshall(Amazon.SSO.Model.ListAccountsRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="publicRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountsRequestMarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountsResponseUnmarshaller">
+            <summary>
+            Response Unmarshaller for ListAccounts operation
+            </summary>  
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountsResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountsResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <param name="innerException"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SSO.Model.Internal.MarshallTransformations.ListAccountsResponseUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SSO.Model.Internal.MarshallTransformations.LogoutRequestMarshaller">
+            <summary>
+            Logout Request Marshaller
+            </summary>       
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.LogoutRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.LogoutRequestMarshaller.Marshall(Amazon.SSO.Model.LogoutRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="publicRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SSO.Model.Internal.MarshallTransformations.LogoutRequestMarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SSO.Model.Internal.MarshallTransformations.LogoutResponseUnmarshaller">
+            <summary>
+            Response Unmarshaller for Logout operation
+            </summary>  
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.LogoutResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.LogoutResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <param name="innerException"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SSO.Model.Internal.MarshallTransformations.LogoutResponseUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SSO.Model.Internal.MarshallTransformations.ResourceNotFoundExceptionUnmarshaller">
+            <summary>
+            Response Unmarshaller for ResourceNotFoundException Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.ResourceNotFoundExceptionUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.ResourceNotFoundExceptionUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,Amazon.Runtime.Internal.ErrorResponse)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <param name="errorResponse"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SSO.Model.Internal.MarshallTransformations.ResourceNotFoundExceptionUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SSO.Model.Internal.MarshallTransformations.RoleCredentialsUnmarshaller">
+            <summary>
+            Response Unmarshaller for RoleCredentials Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.RoleCredentialsUnmarshaller.Amazon#Runtime#Internal#Transform#IUnmarshaller{Amazon#SSO#Model#RoleCredentials,Amazon#Runtime#Internal#Transform#XmlUnmarshallerContext}#Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.RoleCredentialsUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SSO.Model.Internal.MarshallTransformations.RoleCredentialsUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SSO.Model.Internal.MarshallTransformations.RoleInfoUnmarshaller">
+            <summary>
+            Response Unmarshaller for RoleInfo Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.RoleInfoUnmarshaller.Amazon#Runtime#Internal#Transform#IUnmarshaller{Amazon#SSO#Model#RoleInfo,Amazon#Runtime#Internal#Transform#XmlUnmarshallerContext}#Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.RoleInfoUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SSO.Model.Internal.MarshallTransformations.RoleInfoUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SSO.Model.Internal.MarshallTransformations.TooManyRequestsExceptionUnmarshaller">
+            <summary>
+            Response Unmarshaller for TooManyRequestsException Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.TooManyRequestsExceptionUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.TooManyRequestsExceptionUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,Amazon.Runtime.Internal.ErrorResponse)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <param name="errorResponse"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SSO.Model.Internal.MarshallTransformations.TooManyRequestsExceptionUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SSO.Model.Internal.MarshallTransformations.UnauthorizedExceptionUnmarshaller">
+            <summary>
+            Response Unmarshaller for UnauthorizedException Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.UnauthorizedExceptionUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SSO.Model.Internal.MarshallTransformations.UnauthorizedExceptionUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,Amazon.Runtime.Internal.ErrorResponse)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <param name="errorResponse"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SSO.Model.Internal.MarshallTransformations.UnauthorizedExceptionUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SSO.Model.InvalidRequestException">
+            <summary>
+            Indicates that a problem occurred with the input to the request. For example, a required
+            parameter might be missing or out of range.
+            </summary>
+        </member>
+        <member name="M:Amazon.SSO.Model.InvalidRequestException.#ctor(System.String)">
+            <summary>
+            Constructs a new InvalidRequestException with the specified error
+            message.
+            </summary>
+            <param name="message">
+            Describes the error encountered.
+            </param>
+        </member>
+        <member name="M:Amazon.SSO.Model.InvalidRequestException.#ctor(System.String,System.Exception)">
+            <summary>
+            Construct instance of InvalidRequestException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.InvalidRequestException.#ctor(System.Exception)">
+            <summary>
+            Construct instance of InvalidRequestException
+            </summary>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.InvalidRequestException.#ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of InvalidRequestException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.InvalidRequestException.#ctor(System.String,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of InvalidRequestException
+            </summary>
+            <param name="message"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.InvalidRequestException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructs a new instance of the InvalidRequestException class with serialized data.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
+            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
+        </member>
+        <member name="M:Amazon.SSO.Model.InvalidRequestException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Sets the <see cref="T:System.Runtime.Serialization.SerializationInfo" /> with information about the exception.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is a null reference (Nothing in Visual Basic). </exception>
+        </member>
+        <member name="T:Amazon.SSO.Model.ListAccountRolesRequest">
+            <summary>
+            Container for the parameters to the ListAccountRoles operation.
+            Lists all roles that are assigned to the user for a given AWS account.
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.ListAccountRolesRequest.AccessToken">
+            <summary>
+            Gets and sets the property AccessToken. 
+            <para>
+            The token issued by the <code>CreateToken</code> API call. For more information, see
+            <a href="https://docs.aws.amazon.com/singlesignon/latest/OIDCAPIReference/API_CreateToken.html">CreateToken</a>
+            in the <i>AWS SSO OIDC API Reference Guide</i>.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.ListAccountRolesRequest.AccountId">
+            <summary>
+            Gets and sets the property AccountId. 
+            <para>
+            The identifier for the AWS account that is assigned to the user.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.ListAccountRolesRequest.MaxResults">
+            <summary>
+            Gets and sets the property MaxResults. 
+            <para>
+            The number of items that clients can request per page.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.ListAccountRolesRequest.NextToken">
+            <summary>
+            Gets and sets the property NextToken. 
+            <para>
+            The page token from the previous response output when you request subsequent pages.
+            </para>
+            </summary>
+        </member>
+        <member name="M:Amazon.SSO.Model.ListAccountRolesRequest.CreateSigner">
+            <summary>
+            Get the signer to use for this request.
+            </summary>
+            <returns>A signer for this request.</returns>
+        </member>
+        <member name="T:Amazon.SSO.Model.ListAccountRolesResponse">
+            <summary>
+            This is the response object from the ListAccountRoles operation.
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.ListAccountRolesResponse.NextToken">
+            <summary>
+            Gets and sets the property NextToken. 
+            <para>
+            The page token client that is used to retrieve the list of accounts.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.ListAccountRolesResponse.RoleList">
+            <summary>
+            Gets and sets the property RoleList. 
+            <para>
+            A paginated response with the list of roles and the next token if more results are
+            available.
+            </para>
+            </summary>
+        </member>
+        <member name="T:Amazon.SSO.Model.ListAccountsRequest">
+            <summary>
+            Container for the parameters to the ListAccounts operation.
+            Lists all AWS accounts assigned to the user. These AWS accounts are assigned by the
+            administrator of the account. For more information, see <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/useraccess.html#assignusers">Assign
+            User Access</a> in the <i>AWS SSO User Guide</i>. This operation returns a paginated
+            response.
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.ListAccountsRequest.AccessToken">
+            <summary>
+            Gets and sets the property AccessToken. 
+            <para>
+            The token issued by the <code>CreateToken</code> API call. For more information, see
+            <a href="https://docs.aws.amazon.com/singlesignon/latest/OIDCAPIReference/API_CreateToken.html">CreateToken</a>
+            in the <i>AWS SSO OIDC API Reference Guide</i>.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.ListAccountsRequest.MaxResults">
+            <summary>
+            Gets and sets the property MaxResults. 
+            <para>
+            This is the number of items clients can request per page.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.ListAccountsRequest.NextToken">
+            <summary>
+            Gets and sets the property NextToken. 
+            <para>
+            (Optional) When requesting subsequent pages, this is the page token from the previous
+            response output.
+            </para>
+            </summary>
+        </member>
+        <member name="M:Amazon.SSO.Model.ListAccountsRequest.CreateSigner">
+            <summary>
+            Get the signer to use for this request.
+            </summary>
+            <returns>A signer for this request.</returns>
+        </member>
+        <member name="T:Amazon.SSO.Model.ListAccountsResponse">
+            <summary>
+            This is the response object from the ListAccounts operation.
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.ListAccountsResponse.AccountList">
+            <summary>
+            Gets and sets the property AccountList. 
+            <para>
+            A paginated response with the list of account information and the next token if more
+            results are available.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.ListAccountsResponse.NextToken">
+            <summary>
+            Gets and sets the property NextToken. 
+            <para>
+            The page token client that is used to retrieve the list of accounts.
+            </para>
+            </summary>
+        </member>
+        <member name="T:Amazon.SSO.Model.LogoutRequest">
+            <summary>
+            Container for the parameters to the Logout operation.
+            Removes the client- and server-side session that is associated with the user.
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.LogoutRequest.AccessToken">
+            <summary>
+            Gets and sets the property AccessToken. 
+            <para>
+            The token issued by the <code>CreateToken</code> API call. For more information, see
+            <a href="https://docs.aws.amazon.com/singlesignon/latest/OIDCAPIReference/API_CreateToken.html">CreateToken</a>
+            in the <i>AWS SSO OIDC API Reference Guide</i>.
+            </para>
+            </summary>
+        </member>
+        <member name="M:Amazon.SSO.Model.LogoutRequest.CreateSigner">
+            <summary>
+            Get the signer to use for this request.
+            </summary>
+            <returns>A signer for this request.</returns>
+        </member>
+        <member name="T:Amazon.SSO.Model.LogoutResponse">
+            <summary>
+            This is the response object from the Logout operation.
+            </summary>
+        </member>
+        <member name="T:Amazon.SSO.Model.ResourceNotFoundException">
+            <summary>
+            The specified resource doesn't exist.
+            </summary>
+        </member>
+        <member name="M:Amazon.SSO.Model.ResourceNotFoundException.#ctor(System.String)">
+            <summary>
+            Constructs a new ResourceNotFoundException with the specified error
+            message.
+            </summary>
+            <param name="message">
+            Describes the error encountered.
+            </param>
+        </member>
+        <member name="M:Amazon.SSO.Model.ResourceNotFoundException.#ctor(System.String,System.Exception)">
+            <summary>
+            Construct instance of ResourceNotFoundException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.ResourceNotFoundException.#ctor(System.Exception)">
+            <summary>
+            Construct instance of ResourceNotFoundException
+            </summary>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.ResourceNotFoundException.#ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of ResourceNotFoundException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.ResourceNotFoundException.#ctor(System.String,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of ResourceNotFoundException
+            </summary>
+            <param name="message"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.ResourceNotFoundException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructs a new instance of the ResourceNotFoundException class with serialized data.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
+            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
+        </member>
+        <member name="M:Amazon.SSO.Model.ResourceNotFoundException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Sets the <see cref="T:System.Runtime.Serialization.SerializationInfo" /> with information about the exception.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is a null reference (Nothing in Visual Basic). </exception>
+        </member>
+        <member name="T:Amazon.SSO.Model.RoleCredentials">
+            <summary>
+            Provides information about the role credentials that are assigned to the user.
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.RoleCredentials.AccessKeyId">
+            <summary>
+            Gets and sets the property AccessKeyId. 
+            <para>
+            The identifier used for the temporary security credentials. For more information,
+            see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_use-resources.html">Using
+            Temporary Security Credentials to Request Access to AWS Resources</a> in the <i>AWS
+            IAM User Guide</i>.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.RoleCredentials.Expiration">
+            <summary>
+            Gets and sets the property Expiration. 
+            <para>
+            The date on which temporary security credentials expire.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.RoleCredentials.SecretAccessKey">
+            <summary>
+            Gets and sets the property SecretAccessKey. 
+            <para>
+            The key that is used to sign the request. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_use-resources.html">Using
+            Temporary Security Credentials to Request Access to AWS Resources</a> in the <i>AWS
+            IAM User Guide</i>.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.RoleCredentials.SessionToken">
+            <summary>
+            Gets and sets the property SessionToken. 
+            <para>
+            The token used for temporary credentials. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_use-resources.html">Using
+            Temporary Security Credentials to Request Access to AWS Resources</a> in the <i>AWS
+            IAM User Guide</i>.
+            </para>
+            </summary>
+        </member>
+        <member name="T:Amazon.SSO.Model.RoleInfo">
+            <summary>
+            Provides information about the role that is assigned to the user.
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.RoleInfo.AccountId">
+            <summary>
+            Gets and sets the property AccountId. 
+            <para>
+            The identifier of the AWS account assigned to the user.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.Model.RoleInfo.RoleName">
+            <summary>
+            Gets and sets the property RoleName. 
+            <para>
+            The friendly name of the role that is assigned to the user.
+            </para>
+            </summary>
+        </member>
+        <member name="T:Amazon.SSO.Model.TooManyRequestsException">
+            <summary>
+            Indicates that the request is being made too frequently and is more than what the
+            server can handle.
+            </summary>
+        </member>
+        <member name="M:Amazon.SSO.Model.TooManyRequestsException.#ctor(System.String)">
+            <summary>
+            Constructs a new TooManyRequestsException with the specified error
+            message.
+            </summary>
+            <param name="message">
+            Describes the error encountered.
+            </param>
+        </member>
+        <member name="M:Amazon.SSO.Model.TooManyRequestsException.#ctor(System.String,System.Exception)">
+            <summary>
+            Construct instance of TooManyRequestsException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.TooManyRequestsException.#ctor(System.Exception)">
+            <summary>
+            Construct instance of TooManyRequestsException
+            </summary>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.TooManyRequestsException.#ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of TooManyRequestsException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.TooManyRequestsException.#ctor(System.String,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of TooManyRequestsException
+            </summary>
+            <param name="message"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.TooManyRequestsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructs a new instance of the TooManyRequestsException class with serialized data.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
+            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
+        </member>
+        <member name="M:Amazon.SSO.Model.TooManyRequestsException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Sets the <see cref="T:System.Runtime.Serialization.SerializationInfo" /> with information about the exception.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is a null reference (Nothing in Visual Basic). </exception>
+        </member>
+        <member name="T:Amazon.SSO.Model.UnauthorizedException">
+            <summary>
+            Indicates that the request is not authorized. This can happen due to an invalid access
+            token in the request.
+            </summary>
+        </member>
+        <member name="M:Amazon.SSO.Model.UnauthorizedException.#ctor(System.String)">
+            <summary>
+            Constructs a new UnauthorizedException with the specified error
+            message.
+            </summary>
+            <param name="message">
+            Describes the error encountered.
+            </param>
+        </member>
+        <member name="M:Amazon.SSO.Model.UnauthorizedException.#ctor(System.String,System.Exception)">
+            <summary>
+            Construct instance of UnauthorizedException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.UnauthorizedException.#ctor(System.Exception)">
+            <summary>
+            Construct instance of UnauthorizedException
+            </summary>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.UnauthorizedException.#ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of UnauthorizedException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.UnauthorizedException.#ctor(System.String,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of UnauthorizedException
+            </summary>
+            <param name="message"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.SSO.Model.UnauthorizedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructs a new instance of the UnauthorizedException class with serialized data.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
+            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
+        </member>
+        <member name="M:Amazon.SSO.Model.UnauthorizedException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Sets the <see cref="T:System.Runtime.Serialization.SerializationInfo" /> with information about the exception.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is a null reference (Nothing in Visual Basic). </exception>
+        </member>
+        <member name="T:Amazon.SSO.AmazonSSORequest">
+            <summary>
+            Base class for SSO operation requests.
+            </summary>
+        </member>
+        <member name="T:Amazon.SSO.AmazonSSOClient">
+             <summary>
+             Implementation for accessing SSO
+            
+             AWS Single Sign-On Portal is a web service that makes it easy for you to assign user
+             access to AWS SSO resources such as the user portal. Users can get AWS account applications
+             and roles assigned to them and get federated into the application.
+             
+              
+             <para>
+             For general information about AWS SSO, see <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html">What
+             is AWS Single Sign-On?</a> in the <i>AWS SSO User Guide</i>.
+             </para>
+              
+             <para>
+             This API reference guide describes the AWS SSO Portal operations that you can call
+             programatically and includes detailed information on data types and errors.
+             </para>
+              <note> 
+             <para>
+             AWS provides SDKs that consist of libraries and sample code for various programming
+             languages and platforms, such as Java, Ruby, .Net, iOS, or Android. The SDKs provide
+             a convenient way to create programmatic access to AWS SSO and other AWS services.
+             For more information about the AWS SDKs, including how to download and install them,
+             see <a href="http://aws.amazon.com/tools/">Tools for Amazon Web Services</a>.
+             </para>
+              </note>
+             </summary>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.#ctor">
+             <summary>
+             Constructs AmazonSSOClient with the credentials loaded from the application's
+             default configuration, and if unsuccessful from the Instance Profile service on an EC2 instance.
+             
+             Example App.config with credentials set. 
+             <code>
+             &lt;?xml version="1.0" encoding="utf-8" ?&gt;
+             &lt;configuration&gt;
+                 &lt;appSettings&gt;
+                     &lt;add key="AWSProfileName" value="AWS Default"/&gt;
+                 &lt;/appSettings&gt;
+             &lt;/configuration&gt;
+             </code>
+            
+             </summary>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.#ctor(Amazon.RegionEndpoint)">
+             <summary>
+             Constructs AmazonSSOClient with the credentials loaded from the application's
+             default configuration, and if unsuccessful from the Instance Profile service on an EC2 instance.
+             
+             Example App.config with credentials set. 
+             <code>
+             &lt;?xml version="1.0" encoding="utf-8" ?&gt;
+             &lt;configuration&gt;
+                 &lt;appSettings&gt;
+                     &lt;add key="AWSProfileName" value="AWS Default"/&gt;
+                 &lt;/appSettings&gt;
+             &lt;/configuration&gt;
+             </code>
+            
+             </summary>
+             <param name="region">The region to connect.</param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.#ctor(Amazon.SSO.AmazonSSOConfig)">
+             <summary>
+             Constructs AmazonSSOClient with the credentials loaded from the application's
+             default configuration, and if unsuccessful from the Instance Profile service on an EC2 instance.
+             
+             Example App.config with credentials set. 
+             <code>
+             &lt;?xml version="1.0" encoding="utf-8" ?&gt;
+             &lt;configuration&gt;
+                 &lt;appSettings&gt;
+                     &lt;add key="AWSProfileName" value="AWS Default"/&gt;
+                 &lt;/appSettings&gt;
+             &lt;/configuration&gt;
+             </code>
+            
+             </summary>
+             <param name="config">The AmazonSSOClient Configuration Object</param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.#ctor(Amazon.Runtime.AWSCredentials)">
+            <summary>
+            Constructs AmazonSSOClient with AWS Credentials
+            </summary>
+            <param name="credentials">AWS Credentials</param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.#ctor(Amazon.Runtime.AWSCredentials,Amazon.RegionEndpoint)">
+            <summary>
+            Constructs AmazonSSOClient with AWS Credentials
+            </summary>
+            <param name="credentials">AWS Credentials</param>
+            <param name="region">The region to connect.</param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.#ctor(Amazon.Runtime.AWSCredentials,Amazon.SSO.AmazonSSOConfig)">
+            <summary>
+            Constructs AmazonSSOClient with AWS Credentials and an
+            AmazonSSOClient Configuration object.
+            </summary>
+            <param name="credentials">AWS Credentials</param>
+            <param name="clientConfig">The AmazonSSOClient Configuration Object</param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.#ctor(System.String,System.String)">
+            <summary>
+            Constructs AmazonSSOClient with AWS Access Key ID and AWS Secret Key
+            </summary>
+            <param name="awsAccessKeyId">AWS Access Key ID</param>
+            <param name="awsSecretAccessKey">AWS Secret Access Key</param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.#ctor(System.String,System.String,Amazon.RegionEndpoint)">
+            <summary>
+            Constructs AmazonSSOClient with AWS Access Key ID and AWS Secret Key
+            </summary>
+            <param name="awsAccessKeyId">AWS Access Key ID</param>
+            <param name="awsSecretAccessKey">AWS Secret Access Key</param>
+            <param name="region">The region to connect.</param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.#ctor(System.String,System.String,Amazon.SSO.AmazonSSOConfig)">
+            <summary>
+            Constructs AmazonSSOClient with AWS Access Key ID, AWS Secret Key and an
+            AmazonSSOClient Configuration object. 
+            </summary>
+            <param name="awsAccessKeyId">AWS Access Key ID</param>
+            <param name="awsSecretAccessKey">AWS Secret Access Key</param>
+            <param name="clientConfig">The AmazonSSOClient Configuration Object</param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Constructs AmazonSSOClient with AWS Access Key ID and AWS Secret Key
+            </summary>
+            <param name="awsAccessKeyId">AWS Access Key ID</param>
+            <param name="awsSecretAccessKey">AWS Secret Access Key</param>
+            <param name="awsSessionToken">AWS Session Token</param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.#ctor(System.String,System.String,System.String,Amazon.RegionEndpoint)">
+            <summary>
+            Constructs AmazonSSOClient with AWS Access Key ID and AWS Secret Key
+            </summary>
+            <param name="awsAccessKeyId">AWS Access Key ID</param>
+            <param name="awsSecretAccessKey">AWS Secret Access Key</param>
+            <param name="awsSessionToken">AWS Session Token</param>
+            <param name="region">The region to connect.</param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.#ctor(System.String,System.String,System.String,Amazon.SSO.AmazonSSOConfig)">
+            <summary>
+            Constructs AmazonSSOClient with AWS Access Key ID, AWS Secret Key and an
+            AmazonSSOClient Configuration object. 
+            </summary>
+            <param name="awsAccessKeyId">AWS Access Key ID</param>
+            <param name="awsSecretAccessKey">AWS Secret Access Key</param>
+            <param name="awsSessionToken">AWS Session Token</param>
+            <param name="clientConfig">The AmazonSSOClient Configuration Object</param>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.CreateSigner">
+            <summary>
+            Creates the signer for the service.
+            </summary>
+        </member>
+        <member name="P:Amazon.SSO.AmazonSSOClient.ServiceMetadata">
+            <summary>
+            Capture metadata for the service.
+            </summary>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.Dispose(System.Boolean)">
+            <summary>
+            Disposes the service client.
+            </summary>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.GetRoleCredentials(Amazon.SSO.Model.GetRoleCredentialsRequest)">
+            <summary>
+            Returns the STS short-term credentials for a given role name that is assigned to the
+            user.
+            </summary>
+            <param name="request">Container for the necessary parameters to execute the GetRoleCredentials service method.</param>
+            
+            <returns>The response from the GetRoleCredentials service method, as returned by SSO.</returns>
+            <exception cref="T:Amazon.SSO.Model.InvalidRequestException">
+            Indicates that a problem occurred with the input to the request. For example, a required
+            parameter might be missing or out of range.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.ResourceNotFoundException">
+            The specified resource doesn't exist.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.TooManyRequestsException">
+            Indicates that the request is being made too frequently and is more than what the
+            server can handle.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.UnauthorizedException">
+            Indicates that the request is not authorized. This can happen due to an invalid access
+            token in the request.
+            </exception>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/GetRoleCredentials">REST API Reference for GetRoleCredentials Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.BeginGetRoleCredentials(Amazon.SSO.Model.GetRoleCredentialsRequest,System.AsyncCallback,System.Object)">
+            <summary>
+            Initiates the asynchronous execution of the GetRoleCredentials operation.
+            </summary>
+            
+            <param name="request">Container for the necessary parameters to execute the GetRoleCredentials operation on AmazonSSOClient.</param>
+            <param name="callback">An AsyncCallback delegate that is invoked when the operation completes.</param>
+            <param name="state">A user-defined state object that is passed to the callback procedure. Retrieve this object from within the callback
+                     procedure using the AsyncState property.</param>
+            
+            <returns>An IAsyncResult that can be used to poll or wait for results, or both; this value is also needed when invoking EndGetRoleCredentials
+                    operation.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/GetRoleCredentials">REST API Reference for GetRoleCredentials Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.EndGetRoleCredentials(System.IAsyncResult)">
+            <summary>
+            Finishes the asynchronous execution of the  GetRoleCredentials operation.
+            </summary>
+            
+            <param name="asyncResult">The IAsyncResult returned by the call to BeginGetRoleCredentials.</param>
+            
+            <returns>Returns a  GetRoleCredentialsResult from SSO.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/GetRoleCredentials">REST API Reference for GetRoleCredentials Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.ListAccountRoles(Amazon.SSO.Model.ListAccountRolesRequest)">
+            <summary>
+            Lists all roles that are assigned to the user for a given AWS account.
+            </summary>
+            <param name="request">Container for the necessary parameters to execute the ListAccountRoles service method.</param>
+            
+            <returns>The response from the ListAccountRoles service method, as returned by SSO.</returns>
+            <exception cref="T:Amazon.SSO.Model.InvalidRequestException">
+            Indicates that a problem occurred with the input to the request. For example, a required
+            parameter might be missing or out of range.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.ResourceNotFoundException">
+            The specified resource doesn't exist.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.TooManyRequestsException">
+            Indicates that the request is being made too frequently and is more than what the
+            server can handle.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.UnauthorizedException">
+            Indicates that the request is not authorized. This can happen due to an invalid access
+            token in the request.
+            </exception>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/ListAccountRoles">REST API Reference for ListAccountRoles Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.BeginListAccountRoles(Amazon.SSO.Model.ListAccountRolesRequest,System.AsyncCallback,System.Object)">
+            <summary>
+            Initiates the asynchronous execution of the ListAccountRoles operation.
+            </summary>
+            
+            <param name="request">Container for the necessary parameters to execute the ListAccountRoles operation on AmazonSSOClient.</param>
+            <param name="callback">An AsyncCallback delegate that is invoked when the operation completes.</param>
+            <param name="state">A user-defined state object that is passed to the callback procedure. Retrieve this object from within the callback
+                     procedure using the AsyncState property.</param>
+            
+            <returns>An IAsyncResult that can be used to poll or wait for results, or both; this value is also needed when invoking EndListAccountRoles
+                    operation.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/ListAccountRoles">REST API Reference for ListAccountRoles Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.EndListAccountRoles(System.IAsyncResult)">
+            <summary>
+            Finishes the asynchronous execution of the  ListAccountRoles operation.
+            </summary>
+            
+            <param name="asyncResult">The IAsyncResult returned by the call to BeginListAccountRoles.</param>
+            
+            <returns>Returns a  ListAccountRolesResult from SSO.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/ListAccountRoles">REST API Reference for ListAccountRoles Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.ListAccounts(Amazon.SSO.Model.ListAccountsRequest)">
+            <summary>
+            Lists all AWS accounts assigned to the user. These AWS accounts are assigned by the
+            administrator of the account. For more information, see <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/useraccess.html#assignusers">Assign
+            User Access</a> in the <i>AWS SSO User Guide</i>. This operation returns a paginated
+            response.
+            </summary>
+            <param name="request">Container for the necessary parameters to execute the ListAccounts service method.</param>
+            
+            <returns>The response from the ListAccounts service method, as returned by SSO.</returns>
+            <exception cref="T:Amazon.SSO.Model.InvalidRequestException">
+            Indicates that a problem occurred with the input to the request. For example, a required
+            parameter might be missing or out of range.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.ResourceNotFoundException">
+            The specified resource doesn't exist.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.TooManyRequestsException">
+            Indicates that the request is being made too frequently and is more than what the
+            server can handle.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.UnauthorizedException">
+            Indicates that the request is not authorized. This can happen due to an invalid access
+            token in the request.
+            </exception>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/ListAccounts">REST API Reference for ListAccounts Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.BeginListAccounts(Amazon.SSO.Model.ListAccountsRequest,System.AsyncCallback,System.Object)">
+            <summary>
+            Initiates the asynchronous execution of the ListAccounts operation.
+            </summary>
+            
+            <param name="request">Container for the necessary parameters to execute the ListAccounts operation on AmazonSSOClient.</param>
+            <param name="callback">An AsyncCallback delegate that is invoked when the operation completes.</param>
+            <param name="state">A user-defined state object that is passed to the callback procedure. Retrieve this object from within the callback
+                     procedure using the AsyncState property.</param>
+            
+            <returns>An IAsyncResult that can be used to poll or wait for results, or both; this value is also needed when invoking EndListAccounts
+                    operation.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/ListAccounts">REST API Reference for ListAccounts Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.EndListAccounts(System.IAsyncResult)">
+            <summary>
+            Finishes the asynchronous execution of the  ListAccounts operation.
+            </summary>
+            
+            <param name="asyncResult">The IAsyncResult returned by the call to BeginListAccounts.</param>
+            
+            <returns>Returns a  ListAccountsResult from SSO.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/ListAccounts">REST API Reference for ListAccounts Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.Logout(Amazon.SSO.Model.LogoutRequest)">
+            <summary>
+            Removes the client- and server-side session that is associated with the user.
+            </summary>
+            <param name="request">Container for the necessary parameters to execute the Logout service method.</param>
+            
+            <returns>The response from the Logout service method, as returned by SSO.</returns>
+            <exception cref="T:Amazon.SSO.Model.InvalidRequestException">
+            Indicates that a problem occurred with the input to the request. For example, a required
+            parameter might be missing or out of range.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.TooManyRequestsException">
+            Indicates that the request is being made too frequently and is more than what the
+            server can handle.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.UnauthorizedException">
+            Indicates that the request is not authorized. This can happen due to an invalid access
+            token in the request.
+            </exception>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/Logout">REST API Reference for Logout Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.BeginLogout(Amazon.SSO.Model.LogoutRequest,System.AsyncCallback,System.Object)">
+            <summary>
+            Initiates the asynchronous execution of the Logout operation.
+            </summary>
+            
+            <param name="request">Container for the necessary parameters to execute the Logout operation on AmazonSSOClient.</param>
+            <param name="callback">An AsyncCallback delegate that is invoked when the operation completes.</param>
+            <param name="state">A user-defined state object that is passed to the callback procedure. Retrieve this object from within the callback
+                     procedure using the AsyncState property.</param>
+            
+            <returns>An IAsyncResult that can be used to poll or wait for results, or both; this value is also needed when invoking EndLogout
+                    operation.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/Logout">REST API Reference for Logout Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.AmazonSSOClient.EndLogout(System.IAsyncResult)">
+            <summary>
+            Finishes the asynchronous execution of the  Logout operation.
+            </summary>
+            
+            <param name="asyncResult">The IAsyncResult returned by the call to BeginLogout.</param>
+            
+            <returns>Returns a  LogoutResult from SSO.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/Logout">REST API Reference for Logout Operation</seealso>
+        </member>
+        <member name="T:Amazon.SSO.IAmazonSSO">
+             <summary>
+             Interface for accessing SSO
+            
+             AWS Single Sign-On Portal is a web service that makes it easy for you to assign user
+             access to AWS SSO resources such as the user portal. Users can get AWS account applications
+             and roles assigned to them and get federated into the application.
+             
+              
+             <para>
+             For general information about AWS SSO, see <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html">What
+             is AWS Single Sign-On?</a> in the <i>AWS SSO User Guide</i>.
+             </para>
+              
+             <para>
+             This API reference guide describes the AWS SSO Portal operations that you can call
+             programatically and includes detailed information on data types and errors.
+             </para>
+              <note> 
+             <para>
+             AWS provides SDKs that consist of libraries and sample code for various programming
+             languages and platforms, such as Java, Ruby, .Net, iOS, or Android. The SDKs provide
+             a convenient way to create programmatic access to AWS SSO and other AWS services.
+             For more information about the AWS SDKs, including how to download and install them,
+             see <a href="http://aws.amazon.com/tools/">Tools for Amazon Web Services</a>.
+             </para>
+              </note>
+             </summary>
+        </member>
+        <member name="M:Amazon.SSO.IAmazonSSO.GetRoleCredentials(Amazon.SSO.Model.GetRoleCredentialsRequest)">
+            <summary>
+            Returns the STS short-term credentials for a given role name that is assigned to the
+            user.
+            </summary>
+            <param name="request">Container for the necessary parameters to execute the GetRoleCredentials service method.</param>
+            
+            <returns>The response from the GetRoleCredentials service method, as returned by SSO.</returns>
+            <exception cref="T:Amazon.SSO.Model.InvalidRequestException">
+            Indicates that a problem occurred with the input to the request. For example, a required
+            parameter might be missing or out of range.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.ResourceNotFoundException">
+            The specified resource doesn't exist.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.TooManyRequestsException">
+            Indicates that the request is being made too frequently and is more than what the
+            server can handle.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.UnauthorizedException">
+            Indicates that the request is not authorized. This can happen due to an invalid access
+            token in the request.
+            </exception>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/GetRoleCredentials">REST API Reference for GetRoleCredentials Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.IAmazonSSO.BeginGetRoleCredentials(Amazon.SSO.Model.GetRoleCredentialsRequest,System.AsyncCallback,System.Object)">
+            <summary>
+            Initiates the asynchronous execution of the GetRoleCredentials operation.
+            </summary>
+            
+            <param name="request">Container for the necessary parameters to execute the GetRoleCredentials operation on AmazonSSOClient.</param>
+            <param name="callback">An AsyncCallback delegate that is invoked when the operation completes.</param>
+            <param name="state">A user-defined state object that is passed to the callback procedure. Retrieve this object from within the callback
+                     procedure using the AsyncState property.</param>
+            
+            <returns>An IAsyncResult that can be used to poll or wait for results, or both; this value is also needed when invoking EndGetRoleCredentials
+                    operation.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/GetRoleCredentials">REST API Reference for GetRoleCredentials Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.IAmazonSSO.EndGetRoleCredentials(System.IAsyncResult)">
+            <summary>
+            Finishes the asynchronous execution of the  GetRoleCredentials operation.
+            </summary>
+            
+            <param name="asyncResult">The IAsyncResult returned by the call to BeginGetRoleCredentials.</param>
+            
+            <returns>Returns a  GetRoleCredentialsResult from SSO.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/GetRoleCredentials">REST API Reference for GetRoleCredentials Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.IAmazonSSO.ListAccountRoles(Amazon.SSO.Model.ListAccountRolesRequest)">
+            <summary>
+            Lists all roles that are assigned to the user for a given AWS account.
+            </summary>
+            <param name="request">Container for the necessary parameters to execute the ListAccountRoles service method.</param>
+            
+            <returns>The response from the ListAccountRoles service method, as returned by SSO.</returns>
+            <exception cref="T:Amazon.SSO.Model.InvalidRequestException">
+            Indicates that a problem occurred with the input to the request. For example, a required
+            parameter might be missing or out of range.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.ResourceNotFoundException">
+            The specified resource doesn't exist.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.TooManyRequestsException">
+            Indicates that the request is being made too frequently and is more than what the
+            server can handle.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.UnauthorizedException">
+            Indicates that the request is not authorized. This can happen due to an invalid access
+            token in the request.
+            </exception>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/ListAccountRoles">REST API Reference for ListAccountRoles Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.IAmazonSSO.BeginListAccountRoles(Amazon.SSO.Model.ListAccountRolesRequest,System.AsyncCallback,System.Object)">
+            <summary>
+            Initiates the asynchronous execution of the ListAccountRoles operation.
+            </summary>
+            
+            <param name="request">Container for the necessary parameters to execute the ListAccountRoles operation on AmazonSSOClient.</param>
+            <param name="callback">An AsyncCallback delegate that is invoked when the operation completes.</param>
+            <param name="state">A user-defined state object that is passed to the callback procedure. Retrieve this object from within the callback
+                     procedure using the AsyncState property.</param>
+            
+            <returns>An IAsyncResult that can be used to poll or wait for results, or both; this value is also needed when invoking EndListAccountRoles
+                    operation.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/ListAccountRoles">REST API Reference for ListAccountRoles Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.IAmazonSSO.EndListAccountRoles(System.IAsyncResult)">
+            <summary>
+            Finishes the asynchronous execution of the  ListAccountRoles operation.
+            </summary>
+            
+            <param name="asyncResult">The IAsyncResult returned by the call to BeginListAccountRoles.</param>
+            
+            <returns>Returns a  ListAccountRolesResult from SSO.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/ListAccountRoles">REST API Reference for ListAccountRoles Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.IAmazonSSO.ListAccounts(Amazon.SSO.Model.ListAccountsRequest)">
+            <summary>
+            Lists all AWS accounts assigned to the user. These AWS accounts are assigned by the
+            administrator of the account. For more information, see <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/useraccess.html#assignusers">Assign
+            User Access</a> in the <i>AWS SSO User Guide</i>. This operation returns a paginated
+            response.
+            </summary>
+            <param name="request">Container for the necessary parameters to execute the ListAccounts service method.</param>
+            
+            <returns>The response from the ListAccounts service method, as returned by SSO.</returns>
+            <exception cref="T:Amazon.SSO.Model.InvalidRequestException">
+            Indicates that a problem occurred with the input to the request. For example, a required
+            parameter might be missing or out of range.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.ResourceNotFoundException">
+            The specified resource doesn't exist.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.TooManyRequestsException">
+            Indicates that the request is being made too frequently and is more than what the
+            server can handle.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.UnauthorizedException">
+            Indicates that the request is not authorized. This can happen due to an invalid access
+            token in the request.
+            </exception>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/ListAccounts">REST API Reference for ListAccounts Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.IAmazonSSO.BeginListAccounts(Amazon.SSO.Model.ListAccountsRequest,System.AsyncCallback,System.Object)">
+            <summary>
+            Initiates the asynchronous execution of the ListAccounts operation.
+            </summary>
+            
+            <param name="request">Container for the necessary parameters to execute the ListAccounts operation on AmazonSSOClient.</param>
+            <param name="callback">An AsyncCallback delegate that is invoked when the operation completes.</param>
+            <param name="state">A user-defined state object that is passed to the callback procedure. Retrieve this object from within the callback
+                     procedure using the AsyncState property.</param>
+            
+            <returns>An IAsyncResult that can be used to poll or wait for results, or both; this value is also needed when invoking EndListAccounts
+                    operation.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/ListAccounts">REST API Reference for ListAccounts Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.IAmazonSSO.EndListAccounts(System.IAsyncResult)">
+            <summary>
+            Finishes the asynchronous execution of the  ListAccounts operation.
+            </summary>
+            
+            <param name="asyncResult">The IAsyncResult returned by the call to BeginListAccounts.</param>
+            
+            <returns>Returns a  ListAccountsResult from SSO.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/ListAccounts">REST API Reference for ListAccounts Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.IAmazonSSO.Logout(Amazon.SSO.Model.LogoutRequest)">
+            <summary>
+            Removes the client- and server-side session that is associated with the user.
+            </summary>
+            <param name="request">Container for the necessary parameters to execute the Logout service method.</param>
+            
+            <returns>The response from the Logout service method, as returned by SSO.</returns>
+            <exception cref="T:Amazon.SSO.Model.InvalidRequestException">
+            Indicates that a problem occurred with the input to the request. For example, a required
+            parameter might be missing or out of range.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.TooManyRequestsException">
+            Indicates that the request is being made too frequently and is more than what the
+            server can handle.
+            </exception>
+            <exception cref="T:Amazon.SSO.Model.UnauthorizedException">
+            Indicates that the request is not authorized. This can happen due to an invalid access
+            token in the request.
+            </exception>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/Logout">REST API Reference for Logout Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.IAmazonSSO.BeginLogout(Amazon.SSO.Model.LogoutRequest,System.AsyncCallback,System.Object)">
+            <summary>
+            Initiates the asynchronous execution of the Logout operation.
+            </summary>
+            
+            <param name="request">Container for the necessary parameters to execute the Logout operation on AmazonSSOClient.</param>
+            <param name="callback">An AsyncCallback delegate that is invoked when the operation completes.</param>
+            <param name="state">A user-defined state object that is passed to the callback procedure. Retrieve this object from within the callback
+                     procedure using the AsyncState property.</param>
+            
+            <returns>An IAsyncResult that can be used to poll or wait for results, or both; this value is also needed when invoking EndLogout
+                    operation.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/Logout">REST API Reference for Logout Operation</seealso>
+        </member>
+        <member name="M:Amazon.SSO.IAmazonSSO.EndLogout(System.IAsyncResult)">
+            <summary>
+            Finishes the asynchronous execution of the  Logout operation.
+            </summary>
+            
+            <param name="asyncResult">The IAsyncResult returned by the call to BeginLogout.</param>
+            
+            <returns>Returns a  LogoutResult from SSO.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/sso-2019-06-10/Logout">REST API Reference for Logout Operation</seealso>
+        </member>
+    </members>
+</doc>

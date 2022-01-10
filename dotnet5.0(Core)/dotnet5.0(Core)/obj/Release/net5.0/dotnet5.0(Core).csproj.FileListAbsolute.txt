@@ -1,0 +1,40 @@
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\dotnet5.0(Core).exe
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\dotnet5.0(Core).deps.json
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\dotnet5.0(Core).runtimeconfig.json
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\dotnet5.0(Core).runtimeconfig.dev.json
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\dotnet5.0(Core).dll
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\ref\dotnet5.0(Core).dll
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\dotnet5.0(Core).pdb
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\AWSSDK.Core.dll
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\AWSSDK.SSO.dll
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\AWSSDK.SSOOIDC.dll
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).csproj.AssemblyReference.cache
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).AssemblyInfoInputs.cache
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).AssemblyInfo.cs
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).csproj.CoreCompileInputs.cache
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).csproj.CopyComplete
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).dll
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\ref\dotnet5.0(Core).dll
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).pdb
+C:\Users\hun80708\Desktop\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).genruntimeconfig.cache
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\dotnet5.0(Core).exe
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\dotnet5.0(Core).deps.json
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\dotnet5.0(Core).runtimeconfig.json
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\dotnet5.0(Core).runtimeconfig.dev.json
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\dotnet5.0(Core).dll
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\ref\dotnet5.0(Core).dll
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\dotnet5.0(Core).pdb
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\AWSSDK.Core.dll
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\AWSSDK.SSO.dll
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\bin\Release\net5.0\AWSSDK.SSOOIDC.dll
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).csproj.AssemblyReference.cache
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).AssemblyInfoInputs.cache
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).AssemblyInfo.cs
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).csproj.CoreCompileInputs.cache
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).csproj.CopyComplete
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).dll
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\ref\dotnet5.0(Core).dll
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).pdb
+C:\Users\hun80708\Desktop\AWS_Token_Refresh - Copy\dotnet5.0(Core)\dotnet5.0(Core)\obj\Release\net5.0\dotnet5.0(Core).genruntimeconfig.cache

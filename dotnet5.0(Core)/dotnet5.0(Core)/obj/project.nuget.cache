@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "uyrCWOZuHx5AGCP9lz+u4Y3Hepzma+plQgrAzswCFg+ZgsRAOn9uB8ZuwkvDEup7anH3sh1pWak7cVdsrlXjMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hun80708\\Desktop\\AWS_Token_Refresh - Copy\\dotnet5.0(Core)\\dotnet5.0(Core)\\dotnet5.0(Core).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hun80708\\.nuget\\packages\\awssdk.core\\3.7.5.12\\awssdk.core.3.7.5.12.nupkg.sha512",
+    "C:\\Users\\hun80708\\.nuget\\packages\\awssdk.sso\\3.7.0.113\\awssdk.sso.3.7.0.113.nupkg.sha512",
+    "C:\\Users\\hun80708\\.nuget\\packages\\awssdk.ssooidc\\3.7.0.113\\awssdk.ssooidc.3.7.0.113.nupkg.sha512"
+  ],
+  "logs": []
+}

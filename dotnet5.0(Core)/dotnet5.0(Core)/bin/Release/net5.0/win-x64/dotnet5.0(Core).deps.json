@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {},
+    ".NETCoreApp,Version=v5.0/win-x64": {
+      "dotnet5.0(Core)/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.5.12",
+          "AWSSDK.SSO": "3.7.0.113",
+          "AWSSDK.SSOOIDC": "3.7.0.113"
+        },
+        "runtime": {
+          "dotnet5.0(Core).dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.5.12": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.5.12"
+          }
+        }
+      },
+      "AWSSDK.SSO/3.7.0.113": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.5.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SSO.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.113"
+          }
+        }
+      },
+      "AWSSDK.SSOOIDC/3.7.0.113": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.5.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SSOOIDC.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.113"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotnet5.0(Core)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.5.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sdDnnZP5NsnUDnWBefpAABzRVMS01HShPNC8/o+giiabj/NEI1wkPl9+PhpiDa3fKMZDQ0q/4t3/XpBH/9jiRA==",
+      "path": "awssdk.core/3.7.5.12",
+      "hashPath": "awssdk.core.3.7.5.12.nupkg.sha512"
+    },
+    "AWSSDK.SSO/3.7.0.113": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t4UiyKUmlJmATDDhee3m//ILqEDH6Qybi8AQ4cDnq9JouuAXutsNCME1TvvUQV+lvfbCobqaZeJX5juVje6YXQ==",
+      "path": "awssdk.sso/3.7.0.113",
+      "hashPath": "awssdk.sso.3.7.0.113.nupkg.sha512"
+    },
+    "AWSSDK.SSOOIDC/3.7.0.113": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5wAjbavQMxR1cMyMabfbanETd0PPpnAq0orPDvdAZoFnyfn/7Zp0sh9LeUPQ5+ihUAgiAYaCX0Bq6+iNqCXJig==",
+      "path": "awssdk.ssooidc/3.7.0.113",
+      "hashPath": "awssdk.ssooidc.3.7.0.113.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "AWSSDK.Core/3.7.5.12": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.SSO/3.7.0.113": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.5.12, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SSO.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SSO.dll": {}
+        }
+      },
+      "AWSSDK.SSOOIDC/3.7.0.113": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.5.12, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SSOOIDC.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SSOOIDC.dll": {}
+        }
+      }
+    },
+    "net5.0/win-x64": {
+      "AWSSDK.Core/3.7.5.12": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.SSO/3.7.0.113": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.5.12, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SSO.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SSO.dll": {}
+        }
+      },
+      "AWSSDK.SSOOIDC/3.7.0.113": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.5.12, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SSOOIDC.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SSOOIDC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AWSSDK.Core/3.7.5.12": {
+      "sha512": "sdDnnZP5NsnUDnWBefpAABzRVMS01HShPNC8/o+giiabj/NEI1wkPl9+PhpiDa3fKMZDQ0q/4t3/XpBH/9jiRA==",
+      "type": "package",
+      "path": "awssdk.core/3.7.5.12",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.5.12.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.SSO/3.7.0.113": {
+      "sha512": "t4UiyKUmlJmATDDhee3m//ILqEDH6Qybi8AQ4cDnq9JouuAXutsNCME1TvvUQV+lvfbCobqaZeJX5juVje6YXQ==",
+      "type": "package",
+      "path": "awssdk.sso/3.7.0.113",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SSO.CodeAnalysis.dll",
+        "awssdk.sso.3.7.0.113.nupkg.sha512",
+        "awssdk.sso.nuspec",
+        "lib/net35/AWSSDK.SSO.dll",
+        "lib/net35/AWSSDK.SSO.pdb",
+        "lib/net35/AWSSDK.SSO.xml",
+        "lib/net45/AWSSDK.SSO.dll",
+        "lib/net45/AWSSDK.SSO.pdb",
+        "lib/net45/AWSSDK.SSO.xml",
+        "lib/netcoreapp3.1/AWSSDK.SSO.dll",
+        "lib/netcoreapp3.1/AWSSDK.SSO.pdb",
+        "lib/netcoreapp3.1/AWSSDK.SSO.xml",
+        "lib/netstandard2.0/AWSSDK.SSO.dll",
+        "lib/netstandard2.0/AWSSDK.SSO.pdb",
+        "lib/netstandard2.0/AWSSDK.SSO.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.SSOOIDC/3.7.0.113": {
+      "sha512": "5wAjbavQMxR1cMyMabfbanETd0PPpnAq0orPDvdAZoFnyfn/7Zp0sh9LeUPQ5+ihUAgiAYaCX0Bq6+iNqCXJig==",
+      "type": "package",
+      "path": "awssdk.ssooidc/3.7.0.113",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SSOOIDC.CodeAnalysis.dll",
+        "awssdk.ssooidc.3.7.0.113.nupkg.sha512",
+        "awssdk.ssooidc.nuspec",
+        "lib/net35/AWSSDK.SSOOIDC.dll",
+        "lib/net35/AWSSDK.SSOOIDC.pdb",
+        "lib/net35/AWSSDK.SSOOIDC.xml",
+        "lib/net45/AWSSDK.SSOOIDC.dll",
+        "lib/net45/AWSSDK.SSOOIDC.pdb",
+        "lib/net45/AWSSDK.SSOOIDC.xml",
+        "lib/netcoreapp3.1/AWSSDK.SSOOIDC.dll",
+        "lib/netcoreapp3.1/AWSSDK.SSOOIDC.pdb",
+        "lib/netcoreapp3.1/AWSSDK.SSOOIDC.xml",
+        "lib/netstandard2.0/AWSSDK.SSOOIDC.dll",
+        "lib/netstandard2.0/AWSSDK.SSOOIDC.pdb",
+        "lib/netstandard2.0/AWSSDK.SSOOIDC.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "AWSSDK.Core >= 3.7.5.12",
+      "AWSSDK.SSO >= 3.7.0.113",
+      "AWSSDK.SSOOIDC >= 3.7.0.113"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\hun80708\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\hun80708\\Desktop\\dotnet5.0(Core)\\dotnet5.0(Core)\\dotnet5.0(Core).csproj",
+      "projectName": "dotnet5.0(Core)",
+      "projectPath": "C:\\Users\\hun80708\\Desktop\\dotnet5.0(Core)\\dotnet5.0(Core)\\dotnet5.0(Core).csproj",
+      "packagesPath": "C:\\Users\\hun80708\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hun80708\\Desktop\\dotnet5.0(Core)\\dotnet5.0(Core)\\obj\\publish\\win-x64\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\hun80708\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "AWSSDK.Core": {
+            "target": "Package",
+            "version": "[3.7.5.12, )"
+          },
+          "AWSSDK.SSO": {
+            "target": "Package",
+            "version": "[3.7.0.113, )"
+          },
+          "AWSSDK.SSOOIDC": {
+            "target": "Package",
+            "version": "[3.7.0.113, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
+      }
+    }
+  }
+}

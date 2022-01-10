@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c9eff163-a69f-4f26-a3f1-ffecf818da56": {
+      "ProjectGuid": "c9eff163-a69f-4f26-a3f1-ffecf818da56",
+      "DisplayName": "dotnet4.5",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

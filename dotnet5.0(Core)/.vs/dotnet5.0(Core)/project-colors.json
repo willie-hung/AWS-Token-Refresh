@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0a59fb2c-4d4e-4a35-9201-db4e6eeb2e8d": {
+      "ProjectGuid": "0a59fb2c-4d4e-4a35-9201-db4e6eeb2e8d",
+      "DisplayName": "dotnet5.0(Core)",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
