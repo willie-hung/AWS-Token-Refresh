@@ -11,8 +11,8 @@ A **.NET** project that can refresh your **Amazon Web Service(AWS) token** and u
 - First, You can either choose `.NET 5.0 Core version` or `.NET 4.5 Framework version` based on the current .NET installation on your local machine.
 - Second, `git clone` this repository and customize some of the AWS parameters in `program.cs`.
 - Third, `build` the code in `release mode` and `run` the program. (You can also `publish` the code via Visual Studio)
-- The program will then open a browser automatically and you can enter your personal `AWS UserID` and `AWS Password`. 
-- As soon as you finish verifying your identity, your credentials will be automatically write into the `.aws file`. (Normally you can find this file under your `USERNAME` directory)
+- The program will then open a browser automatically and you can enter your personal `AWS UserID` and `AWS Password` in the browser. 
+- As soon as you finish verifying your identity, your credentials will be automatically write into the `.aws file`. (Normally, you can find this file under your `USERNAME` directory)
 
 ## Programming Language & Framework & IDE
 
