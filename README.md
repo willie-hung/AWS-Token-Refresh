@@ -23,7 +23,7 @@ A **.NET** project that can refresh your **Amazon Web Service(AWS) token** and u
 - .NET 5.0 (Core)
 
 ## Operating System
-- Windows
+- Windows, Linux & MacOS (for.NETCore)
 
 ## Nuget Packages
 
