@@ -4,7 +4,7 @@
 
 ## About
 
-A **.NET** project that can refresh your **Amazon Web Service(AWS) token** and update your **AWS credential file** automatically on your local machine swiftly.
+A **.NET** project that can refresh your **Amazon Web Service(AWS) token** and update your **AWS credential file** automatically on your local machine.
 
 ## How to run?
 
