@@ -23,14 +23,14 @@ A **.NET** project that can refresh your **Amazon Web Service(AWS) token** and u
 - .NET 5.0 (Core)
 
 ## Operating System
-- Windows, Linux & MacOS (for.NETCore)
+- Windows, Linux & MacOS (for.NET Core)
 
 ## Nuget Packages
 
 - AWSSDK.Core
 - AWSSDK.SSO
 - AWSSDK.SSOOIDC
-- Fody
+- Costura Fody
 
 ## Additiomal Informaion
 - More information on AWS SDK V3: https://docs.aws.amazon.com/sdkfornet/v3/apidocs/items/SSOOIDC/NSSOOIDC.html
