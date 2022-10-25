@@ -1,4 +1,4 @@
-# AWS-Token-Refresh  ![](https://user-images.githubusercontent.com/65143821/143433804-723b67d0-54b9-45eb-b7b4-8fedb454bc4b.png)  
+<h1 align="center">AWS-Token-Refresh</h1> 
 
 
 
@@ -14,9 +14,9 @@ A **.NET** project that can refresh your **Amazon Web Service(AWS) token** and u
 - The program will then open a browser automatically and you can enter your personal `AWS UserID` and `AWS Password` in the browser. 
 - As soon as you finish verifying your identity, your credentials will be automatically write into the `.aws file`. (Normally, you can find this file under your `USERNAME` directory)
 
-## Programming Language & Framework & IDE
+## Programming Language & Framework & IDE & Cloud
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width=48px height=48px/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain-wordmark.svg" width=48px height=48px/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width=48px height=48px/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width=48px height=48px/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width=48px height=48px/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain-wordmark.svg" width=48px height=48px/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width=48px height=48px/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width=48px height=48px/>  <img src="https://user-images.githubusercontent.com/65143821/143433804-723b67d0-54b9-45eb-b7b4-8fedb454bc4b.png" width=48px height=48px/>
 
 ## Version
 - .NET Framework 4.5
