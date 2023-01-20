@@ -4,7 +4,7 @@
 
 ## About
 
-A **.NET** project that can refresh your **Amazon Web Service(AWS) token** and update your **AWS credential file** automatically on your local machine.
+A **.NET application** that allow users to fetch security access tokens upon successful authentication with **AWS IAM Identity Center** and update credential files automatically on personal computers or servers
 
 ## How to run?
 
