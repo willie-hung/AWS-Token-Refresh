@@ -9,9 +9,11 @@ A **.NET application** that allow users to fetch security access tokens upon suc
 ## Overview
 ![image](https://user-images.githubusercontent.com/65143821/232868182-62605013-a8f1-4dce-85da-d51b913cb7fa.png)
 
+## Diagram
+![image](https://user-images.githubusercontent.com/65143821/232868793-e88a6876-8538-4556-8c53-2d6192de8cbd.png)
+![image](https://user-images.githubusercontent.com/65143821/232868869-3a127670-409a-4954-9cb2-f3a717823589.png)
+
 ## How to run?
-
-
 - First, You can either choose `.NET 5.0 Core version` or `.NET 4.5 Framework version` based on the current .NET installation on your local machine.
 - Second, `git clone` this repository and customize some of the AWS parameters in `program.cs`.
 - Third, `build` the code in `release mode` and `run` the program. (You can also `publish` the code via Visual Studio)
