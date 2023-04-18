@@ -6,7 +6,13 @@
 
 A **.NET application** that allow users to fetch security access tokens upon successful authentication with **AWS IAM Identity Center** and update credential files automatically on personal computers or servers
 
+## Overview
+
+![Frame 51](https://user-images.githubusercontent.com/65143821/232867783-5f4ff23d-a686-4a37-8d01-f49859a31a39.png)
+![Frame 52](https://user-images.githubusercontent.com/65143821/232867837-fbe9b868-58b6-49e5-b309-908e8053a25a.png)
+
 ## How to run?
+
 
 - First, You can either choose `.NET 5.0 Core version` or `.NET 4.5 Framework version` based on the current .NET installation on your local machine.
 - Second, `git clone` this repository and customize some of the AWS parameters in `program.cs`.
